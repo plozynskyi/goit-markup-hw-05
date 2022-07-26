@@ -67,7 +67,7 @@
       <section class="section-hero hero-bg-img">
         <div class="container">
           <h1 class="section-hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="section-hero-button" type="button">Замовити послугу</button>
+          <button class="section-hero-button"  type="button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <!-- Наши приемущества -->
@@ -136,6 +136,9 @@
                 обеспечения"
                 width="370"
               />
+              <div class="thumb-img-text">
+                <p class="section-practice-text">Десктопні додатки</p>
+              </div>
             </li>
             <li class="section-practice-item list">
               <img
@@ -145,6 +148,9 @@
                 приложений"
                 width="370"
               />
+              <div class="thumb-img-text">
+                <p class="section-practice-text">Мобільні додатки</p>
+              </div>
             </li>
             <li class="section-practice-item list">
               <img
@@ -154,6 +160,9 @@
                 эффектами"
                 width="370"
               />
+              <div class="thumb-img-text">
+                <p class="section-practice-text">Дизайнерські рішення</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -349,35 +358,35 @@
               </a>
             </li>
             <li class="clients-list-item">
-              <a href="./" class="clients-list-link">
+              <a href="" class="clients-list-link">
                 <svg class="link-client-logo" width="106" height="60">
                   <use href="./images/studio/svg/sprint.svg#icon-2-tagline"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-list-item">
-              <a href="./" class="clients-list-link">
+              <a href="" class="clients-list-link">
                 <svg class="link-client-logo" width="106" height="60">
                   <use href="./images/studio/svg/sprint.svg#icon-3-company"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-list-item">
-              <a href="./" class="clients-list-link">
+              <a href="" class="clients-list-link">
                 <svg class="link-client-logo" width="106" height="60">
                   <use href="./images/studio/svg/sprint.svg#icon-4-foster-peters"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-list-item">
-              <a href="./" class="clients-list-link">
+              <a href="" class="clients-list-link">
                 <svg class="link-client-logo" width="106" height="60">
                   <use href="./images/studio/svg/sprint.svg#icon-5-brand"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-list-item">
-              <a href="./" class="clients-list-link">
+              <a href="" class="clients-list-link">
                 <svg class="link-client-logo" width="106" height="60">
                   <use href="./images/studio/svg/sprint.svg#icon-6-company-tag"></use>
                 </svg>
@@ -452,5 +461,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <button class="modal-close" data-modal-close>
+          <svg class="close" width="12" height="12" >
+            <use href="./images/studio/svg/sprint.svg#icon-modal-close">
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
